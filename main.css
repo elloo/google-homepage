@@ -1,0 +1,78 @@
+/* Logo alignment */
+#logo {    
+    display: block;
+    height: 92px;
+    width: 272px;
+    margin: 0 auto;
+    padding-top: 109px;
+}
+
+
+/* Form alignment */
+div form {
+    display: block;
+    text-align: center;    
+}
+
+/* Text form input */
+input[type="text"] {
+    width: 503px;
+    height: 34px;
+    border: none;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg") no-repeat 480px 13px;
+    background-size: 20px 20px;
+}
+#searchbox {
+    margin: 25px auto;    
+    width: 528px;
+    height: 44px;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 3px 5px lightgrey;        
+}
+
+/* Button styling */
+input[type="submit"],
+input[type="button"] {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    font-weight: bold;
+    color: #666666;
+}
+
+/* Navbar top */
+li img {
+    height: 25px;
+    width: 25px;
+}
+li div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ab47bc;
+    font-family: sans-serif;
+    color: #e7cbec;
+    text-align: center;        
+    line-height: 30px;    
+}
+#header {
+    
+}
+#header ul {
+    font-family: sans-serif;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li, a div {
+    display: inline; 
+    float: right;    
+}
+li {
+    padding: 10px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
