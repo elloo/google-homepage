@@ -1,10 +1,16 @@
+body {
+    margin: 0;
+}
+
 /* Logo alignment */
-#logo {    
+.logo {    
     display: block;
     height: 92px;
     width: 272px;
     margin: 0 auto;
-    padding-top: 109px;
+}
+img.logo {
+    padding-top: 109px;    
 }
 
 
@@ -17,17 +23,21 @@ div form {
 /* Text form input */
 input[type="text"] {
     width: 503px;
-    height: 34px;
+    height: 34px;    
     border: none;
     background: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg") no-repeat 480px 13px;
     background-size: 20px 20px;
 }
 #searchbox {
+    display: block;        
     margin: 25px auto;    
     width: 528px;
     height: 44px;
     border: 1px solid lightgrey;
     box-shadow: 1px 3px 5px lightgrey;        
+}
+form {
+    padding-top: 100px;
 }
 
 /* Button styling */
@@ -56,17 +66,13 @@ li div {
     text-align: center;        
     line-height: 30px;    
 }
-#header {
-    
-}
 #header ul {
     font-family: sans-serif;    
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li, a div {
-    display: inline; 
+#header ul li, a div {    
     float: right;    
 }
 li {
@@ -75,4 +81,33 @@ li {
 li a {
     text-decoration: none;
     color: black;
+}
+
+/* Footer */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;    
+}
+#footer ul {
+    list-style-type: none;
+    font-family: sans-serif;    
+    font-size: 10pt;      
+}
+#footer li a {
+    color: rgba(0,0,0,0.54);
+}
+#footer ul div {
+    display: inline;    
+}
+#floatleft li {
+    float: left;    
+}
+#floatright li {
+    float: right;    
+}
+#footer-firstlevel {
+ border-bottom: 1px solid #e1e1e1; 
+ text-align: left; 
 }
